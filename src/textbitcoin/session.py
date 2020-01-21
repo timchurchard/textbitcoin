@@ -235,5 +235,5 @@ class Session:
                 if result['label'] == num:
                     return result['address']
         call_rpc(self.__rpcurl, 'getnewaddress', [num, 'bech32'])  # todo: check result
-        self.__smsqueue.put({'to': num, 'body': MSG_HELLO_RECV[DEFAULT_LANG].format(mfrom)})
+        self.__smsqueue.put({'to': num, 'body': MSG_HELLO_RECV[DEFAULT_LANG].format(self.__mfrom)})
         return self.__phone_to_address(num)

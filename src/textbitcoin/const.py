@@ -7,7 +7,7 @@ FROM_NUM = {
     'en': '+447480776370'
 }
 
-SITE_URL = 'https://timchurchard.github.io/textbitcoin'  # TODO
+SITE_URL = 'https://timchurchard.github.io/textbitcoin'
 
 ENV_B_RPC_URL = 'B_RPC_URL'
 ENV_B_SID = 'B_SID'

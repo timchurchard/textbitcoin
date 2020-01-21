@@ -2,15 +2,26 @@
 
 textbitcoin is a custodial on-chain tipping bot for Bitcoin over SMS.  Using a bitcoin full node & wallet as backend.
 
-* PROOF OF CONCEPT ! WARNING ! DO NOT USE *
+## Warning
+
+*Warning! This is a proof of concept! Do not use!*
+
+If you are interested in this idea you can contact me through keybase or email tc@omg.log
 
 
 ### Quick start
 
-Send an SMS to one of the numbers.
+Send an SMS to one of the numbers to get started.
 
 UK - +447480776370
 
+"INTRO" - Shows the help message with available commands.
+
+"ADDR" - Shows your address
+
+"BALANCE" - Shows your current balance and the Bitcoin price.
+
+"SEND (amount 0.00123 or £1.23) to (Bitcoin address or phone number)" - Send Bitcoin
 
 
 ### Why
@@ -44,7 +55,7 @@ twilio phone-numbers:update "+447000000000" --sms-url="http://localhost:5000/sms
 
 ```shell
 # Environment variables
-B_RPC_URL   = URL to Bitcoin full node
+B_RPC_URL   = URL to Bitcoin full node RPC http://user:pass@host:port/
 B_SID       = Twilio Account SID
 B_AUTH      = Twilio Account AUTH
 

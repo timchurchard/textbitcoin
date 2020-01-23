@@ -62,3 +62,8 @@ B_AUTH      = Twilio Account AUTH
 # From the textbitcoin/src directory (TODO: Write setup.py)
 python3 -m textbitcoin
 ```
+
+#### Donate
+
+Bitcoin: 3MJZYDbpc6STn3Q3Cs4wyM3MM8gZR3Ystj
+Ether: 0xC72261Da77C182cC46A18C0f1C3B633E1de1C4A9

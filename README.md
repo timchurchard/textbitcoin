@@ -9,11 +9,9 @@ textbitcoin is a custodial on-chain tipping bot for Bitcoin over SMS.  Using a b
 If you are interested in this idea you can contact me through keybase or email tc@omg.log
 
 
-### Quick start
+### Usage
 
 Send an SMS to one of the numbers to get started.
-
-UK - +447480776370
 
 "INTRO" - Shows the help message with available commands.
 
@@ -27,7 +25,6 @@ UK - +447480776370
 ### Why
 
 testbitcoin enables anyone to send and receive Bitcoin using any phone that can send SMS without the need for an app or internet connection.  Bitcoin is peer-to-peer electronic cash and the people that would benefit most may not have regular internet access.
-
 
 
 ### How it works
@@ -66,4 +63,5 @@ python3 -m textbitcoin
 #### Donate
 
 Bitcoin: 3MJZYDbpc6STn3Q3Cs4wyM3MM8gZR3Ystj
+
 Ether: 0xC72261Da77C182cC46A18C0f1C3B633E1de1C4A9
